@@ -26,7 +26,7 @@ func main() {
 	//pass := "wfasd"
 
 	opts := append(chromedp.DefaultExecAllocatorOptions[:],
-		chromedp.Flag("headless", false),
+		chromedp.Flag("headless", true),
 		chromedp.Flag("disable-gpu", true),
 		chromedp.Flag("window-size", "1200,800"),
 		chromedp.Flag("window-position", "200 500"),
